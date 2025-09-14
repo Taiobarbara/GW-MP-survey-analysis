@@ -24,9 +24,7 @@ pip install -r requirements.txt
 Key Python packages:  
 - `pandas` – data manipulation  
 - `numpy` – numerical analysis  
-- `matplotlib` / `seaborn` – visualization  
-- `scikit-learn` – statistical analysis / clustering (optional)  
-- `jupyter` – interactive exploration  
+- `matplotlib` / `seaborn` – visualization 
 
 ## 📂 Repository Structure  
 ```

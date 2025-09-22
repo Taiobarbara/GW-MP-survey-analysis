@@ -70,6 +70,7 @@ def analyze_by_demographic(demo_keyword: str):
 analyze_by_demographic("Q32")
 
 # You can repeat for gender, education, country, etc.
-# analyze_by_demographic("Q31")
-# analyze_by_demographic("Q35")
-# analyze_by_demographic("Q33")
+# analyze_by_demographic("Q31") # Analyze by gender groups
+# analyze_by_demographic("Q35") # Analyze by education
+# analyze_by_demographic("Q34") # Analyze by nationality
+# analyze_by_demographic("Q33") # Analyze by country of residency

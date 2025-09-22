@@ -4,14 +4,14 @@
 ## 📖 Project Overview  
 This repository contains Python scripts and notebooks for analyzing survey data on public risk perception of **microplastics in groundwater**. The project aims to:  
 - Explore how people perceive risks associated with microplastics.  
-- Identify demographic and geographic patterns in survey responses.  
+- Identify demographic patterns in survey responses.  
 - Visualize results through clear and accessible figures.  
 - Provide reproducible analysis for researchers and policymakers.  
 
 ## 📊 Data  
-- **Source**: [Describe survey source, e.g., conducted by XYZ Institute in 2025].  
-- **Format**: CSV/Excel/JSON (update accordingly).  
-- **Variables**: demographics, awareness, concern levels, trust in institutions, etc.  
+- **Source**: The survey was developed as part of my PhD research and counted on other members of the Plastic Underground Project to validate and disseminate. The survey was available online for 50 days for respondents living in the UK, Switzerland, Italy, Spain, France, Germany and Cyprus, and an additional 30 days in Italy. The survey was conducted in 2024 and had 1385 participants.  
+- **Format**: CSV/Excel.  
+- **Variables**: demographics, water quality, concern levels, trust in institutions, awareness of MPs sources and impacts, etc.  
 
 ⚠️ *Note: Raw data may not be included for privacy reasons. A sample dataset or anonymized data can be provided instead.*  
 
@@ -28,7 +28,7 @@ Key Python packages:
 
 ## 📂 Repository Structure  
 ```
-├── data/                # Raw and/or processed data (if available)  
+├── data/                # Raw and/or processed data (if available) , metadata 
 ├── notebooks/           # Jupyter notebooks with exploratory analysis  
 ├── scripts/             # Python scripts for cleaning & analysis  
 ├── results/             # Figures, tables, and summary outputs  
@@ -69,5 +69,5 @@ Contributions are welcome! Please open an issue or pull request for suggestions,
 
 ## 📧 Contact  
 For questions, reach out to:  
-- **Your Name** – [your.email@example.com]  
-- Project maintained at: [GitHub repo link]  
+- **Barbara Zambelli** – [b.zambelliazevedo@studenti.unipi.it]  
+- Project maintained at: [https://github.com/Taiobarbara/GW-MP-survey-analysis]  

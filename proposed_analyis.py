@@ -3,6 +3,7 @@ import scipy.stats as stats
 import numpy as np
 
 # Load binary survey dataset (already one-hot encoded, Likert transformed to binary)
+# this code runs for the file survey_transformed_4 in which all the data is one-hot encoded.
 df = pd.read_csv("/Users/bazam/Library/CloudStorage/OneDrive-Personal/Documentos/academia/#PhD PLASTIC UNDERGROUND/7.1_excel/survey_transformed_4.csv", header=2)
 
 def cramers_v(confusion_matrix):

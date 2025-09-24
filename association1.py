@@ -4,6 +4,7 @@ import textwrap
 from mlxtend.frequent_patterns import apriori, association_rules
 
 # ------------- USER PARAMETERS -------------
+# this code runs for the file survey_transformed_3 with binary and numeric (likert) data 
 file_path = "/Users/bazam/Library/CloudStorage/OneDrive-Personal/Documentos/academia/#PhD PLASTIC UNDERGROUND/7.1_excel/survey_transformed_3.csv"   # adjust
 min_support = 0.05              # minimum support (try 0.05 to 0.1)
 max_len = 3                     # maximum itemset length (keeps memory manageable)

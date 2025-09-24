@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from mlxtend.frequent_patterns import apriori, association_rules
 
 # 1. Load the dataset (replace 'survey_data.csv' with your file name)
+# this code runs for the file survey_transformed_3 with binary and numeric (likert) data 
 file_path = "/Users/bazam/Library/CloudStorage/OneDrive-Personal/Documentos/academia/#PhD PLASTIC UNDERGROUND/7.1_excel/survey_transformed_3.csv"
 # First 3 rows are headers: (section, question, option)
 df = pd.read_csv(file_path, header=[0,1,2])

@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. Load dataset (adjust file path)
+# this code runs for the file survey_transformed_3 with binary and numeric (likert) data 
 file_path = "/Users/bazam/Library/CloudStorage/OneDrive-Personal/Documentos/academia/#PhD PLASTIC UNDERGROUND/7.1_excel/survey_transformed_3.csv"
 df = pd.read_csv(file_path, header=[0,1,2])
 

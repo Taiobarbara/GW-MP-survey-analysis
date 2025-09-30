@@ -54,7 +54,7 @@ def cluster_knowledge(data_csv, n_clusters=4, output_csv="clusters.csv", heatmap
     print("Boxplot saved as knowledge_score_clusters.png")
 
     # --- Visualization 2: Heatmap of demographics per cluster ---
-    demo_cols = [col for col in df_out.columns if col.startswith("gender_") or col.startswith("age_") or col.startswith("edu_")]
+    demo_cols = [col for col in df_out.columns if col.startswith("gender_") or col.startswith("age_") or col.startswith("educational_")]
     if demo_cols:
         demo_summary = df_out.groupby("Cluster")[demo_cols].mean()
         plt.figure(figsize=(10, 6))

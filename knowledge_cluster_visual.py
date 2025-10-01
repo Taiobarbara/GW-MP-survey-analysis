@@ -3,7 +3,7 @@ from kmodes.kprototypes import KPrototypes
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def cluster_knowledge(data_csv, n_clusters=4, output_csv="clusters.csv", heatmap_file="clusters_boxplot.png"):
+def cluster_knowledge(data_csv, n_clusters=6, output_csv="clusters.csv", heatmap_file="clusters_boxplot.png"):
     """
     Cluster respondents based on knowledge score and demographic one-hot data.
     Also generate summary plots.
@@ -67,6 +67,6 @@ def cluster_knowledge(data_csv, n_clusters=4, output_csv="clusters.csv", heatmap
 
     return df_out, cluster_summary
 
-df_clusters, summary = cluster_knowledge("/Users/bazam/Library/CloudStorage/OneDrive-Personal/Documentos/academia/#PhD PLASTIC UNDERGROUND/7.1_excel/survey/data/knowledge_database_clean.csv", n_clusters=4)
+df_clusters, summary = cluster_knowledge("/Users/bazam/Library/CloudStorage/OneDrive-Personal/Documentos/academia/#PhD PLASTIC UNDERGROUND/7.1_excel/survey/data/knowledge_database_clean.csv", n_clusters=6)
 
 print(summary)

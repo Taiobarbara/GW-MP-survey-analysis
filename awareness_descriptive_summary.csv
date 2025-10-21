@@ -1,0 +1,4 @@
+Awareness Group,Mean,Median,Std. Dev,Skewness,Kurtosis,Shapiro-Wilk p-value,Normality
+aw1,4.235,4.0,0.622,-0.787,2.713,0.0,No
+aw2,3.249,3.0,1.088,-1.064,1.763,0.0,No
+aw3,2.901,3.0,1.136,-0.975,0.217,0.0,No
